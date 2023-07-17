@@ -4,17 +4,17 @@ let participantCounter;
 let participantID;
 
 let call_type= "none";                                  		// API only user
-let node ="au.pexipdemo.com";									// Pexip Conference node(s)
+let node ="pexip-node.something.com";									// Pexip Conference node(s)
 let bandwidth = 1048;                                 			// Not Used! Bandwidth only if escalated api -> video call
-let conference = "pextv.lobby@pexipdemo.com";         			// Pexip meeting 
-let pin = "11111";												// Chairperson (Host) PIN
+let conference = "pexipmeeting100";         			// Pexip meeting 
+let pin = "1234";												// Chairperson (Host) PIN
 let alias = "api_user";                       					// Name of API user
 let call_tag = "";												// Optional Call_tag information (applied by WebRTC user)
 let logo;
 let weblink;
 
 let defaultLogo = "assets/media/logo_200x200.png";
-let defaultWebLink = "https://au.pexipdemo.com/webapp/m/pextv.lobby@pexipdemo.com";
+let defaultWebLink = "https://pexip-node.something.com/webapp/m/pexipmeeting100";
 
 let currentRoster;
 let actors;
